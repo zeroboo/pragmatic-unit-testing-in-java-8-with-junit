@@ -4,8 +4,7 @@
   
   It's organized as a maven java projects, with multiple modules
 
-  Part I  
-  
+  Part I    
     Chapter 1: module 1
     
     Chapter 2: modules 6, 9
