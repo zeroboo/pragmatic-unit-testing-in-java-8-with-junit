@@ -6,10 +6,8 @@
 
   Part I  
   
-    Chapter 1: see module 1
-        
-  PartII
-  
-    Chapter 2: see module 6, 9
+    Chapter 1: module 1
+    
+    Chapter 2: modules 6, 9
     
     
