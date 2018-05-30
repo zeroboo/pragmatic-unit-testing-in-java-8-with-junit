@@ -2,7 +2,7 @@
   Sample codes of the book "Pragmatic Unit Testing in Java 8 with JUnit" (https://pragprog.com/book/utj2/pragmatic-unit-testing-in-java-8-with-junit)
   
   
-  It's organized as a maven java projects, with multiple modules
+  It's organized as a maven java projects, with multiple modules. Modules refer to content of the book as:
 
   Part I
   
