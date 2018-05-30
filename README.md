@@ -4,14 +4,11 @@
   
   It's organized as a maven java projects, with multiple modules
 
-  Part I
-  
+  Part I  
   
     Chapter 1: see module 1
-    
-    
+        
   PartII
-  
   
     Chapter 2: see module 6, 9
     
