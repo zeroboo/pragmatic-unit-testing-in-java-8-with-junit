@@ -14,7 +14,7 @@
 
     Chapter 6, 7: modules 14, 15, 16
 	
-    Chapter 8: modules 16, 19
+    Chapter 8: modules 16, 17, 18, 19
 
   All test can be run with the command at root folder (require maven installed): mvn test
 	
