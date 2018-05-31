@@ -53,6 +53,8 @@
 		<module>16</module>
 		<module>14</module>
 		<module>15</module>
+		<module>19</module>
+		<module>big-1</module>
 	</modules>
 
 </project>

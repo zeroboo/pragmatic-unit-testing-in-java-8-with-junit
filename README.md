@@ -4,21 +4,17 @@
   
   Samples of the book were arranged into a maven java project, with multiple modules. Modules refer to content of the book as:
 
-  Part I
-  
     Chapter 1: module 1
     
     Chapter 2: modules 6, 9
     
 	Chapter 3, Chapter 4: module 13
-	
-  Part II
-  
+
     Chapter 5: 16
 
-    Chapter 6: module 14
+    Chapter 6, 7: modules 14, 15, 16
 	
-	
+    Chapter 8: modules 16, 19
 
   All test can be run with the command at root folder (require maven installed): mvn test
 	
