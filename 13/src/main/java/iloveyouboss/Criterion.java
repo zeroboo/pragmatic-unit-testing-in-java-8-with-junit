@@ -8,14 +8,19 @@
 ***/
 package iloveyouboss;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
+public class Criterion implements Scoreable {
+   private Weight weight;
+   private Answer answer;
+   private int score;
 
-   @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
+   public Criterion(Answer answer, Weight weight) {
+      this.answer = answer;
+      this.weight = weight;
    }
-
+   
+   public Answer getAnswer() { return answer; }
+   public Weight getWeight() { return weight; }
+   
+   public void setScore(int score) { this.score = score; }
+   public int getScore() { return score; }
 }

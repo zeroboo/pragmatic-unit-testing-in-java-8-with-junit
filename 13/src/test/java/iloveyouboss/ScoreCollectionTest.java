@@ -8,14 +8,19 @@
 ***/
 package iloveyouboss;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+import org.junit.*;
 
+public class ScoreCollectionTest {
    @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
+   public void answersArithmeticMeanOfTwoNumbers() {
+      ScoreCollection collection = new ScoreCollection();
+      collection.add(() -> 5);
+      collection.add(() -> 7);
+      
+      int actualResult = collection.arithmeticMean();
+      
+      assertThat(actualResult, equalTo(6));
    }
-
 }

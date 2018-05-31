@@ -8,14 +8,15 @@
 ***/
 package iloveyouboss;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
+public enum Weight {
+   MustMatch(Integer.MAX_VALUE),
+   VeryImportant(5000),
+   Important(1000),
+   WouldPrefer(100),
+   DontCare(0);
+   
+   private int value;
 
-   @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
-   }
-
+   Weight(int value) { this.value = value; }
+   public int getValue() { return value; }
 }

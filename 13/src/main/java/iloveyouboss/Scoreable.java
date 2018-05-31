@@ -8,14 +8,7 @@
 ***/
 package iloveyouboss;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
-
-   @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
-   }
-
+@FunctionalInterface
+public interface Scoreable {
+   int getScore();
 }

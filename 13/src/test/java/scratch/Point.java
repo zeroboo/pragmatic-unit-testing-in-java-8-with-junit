@@ -6,16 +6,19 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/utj2 for more book information.
 ***/
-package iloveyouboss;
+package scratch;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
+public class Point {
+   public final double x;
+   public final double y;
 
-   @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
+   public Point(double x, double y) {
+      this.x = x;
+      this.y = y;
    }
-
+   
+   @Override
+   public String toString() {
+      return String.format("(%s, %s)", x, y);
+   }
 }

@@ -6,16 +6,20 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/utj2 for more book information.
 ***/
-package iloveyouboss;
+package scratch;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
+import org.junit.*;
 
+public class CoverageTest {
    @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
+   public void noIncrementOfCount() {
+      new Coverage().soleMethod();
    }
-
+   
+   @Test
+   public void incrementOfCount() {
+      Coverage c = new Coverage();
+      c.count = 1;
+      c.soleMethod();
+   }
 }

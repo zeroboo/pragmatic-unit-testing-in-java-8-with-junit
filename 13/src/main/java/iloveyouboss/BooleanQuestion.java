@@ -8,14 +8,14 @@
 ***/
 package iloveyouboss;
 
-import static org.junit.Assert.*;  //(1)
-import org.junit.*;                //(2)
-public class ScoreCollectionTest { //(3)
 
-   @Test
-   @Ignore
-   public void test() {            //(5)
-      fail("Not yet implemented"); //(6)
+public class BooleanQuestion extends Question {
+   public BooleanQuestion(int id, String text) {
+      super(id, text, new String[] { "No", "Yes" });
    }
 
+   @Override
+   public boolean match(int expected, int actual) {
+      return expected == actual;
+   }
 }
