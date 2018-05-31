@@ -14,7 +14,11 @@
 	
   Part II
   
-    Chapter 5: module 16
+    Chapter 5: 16
 
-  You can run the tests by command: mvn test
+    Chapter 6: module 14
+	
+	
+
+  All test can be run with the command at root folder (require maven installed): mvn test
 	
