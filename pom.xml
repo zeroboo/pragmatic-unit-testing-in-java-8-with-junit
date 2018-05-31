@@ -54,15 +54,27 @@
 		<module>6</module>
 		<module>9</module>
 		<module>13</module>
-		<module>16</module>
 		<module>14</module>
 		<module>15</module>
-		<module>19</module>
-		<module>big-1</module>
-		<module>18</module>
+		<module>16</module>
 		<module>17</module>
+		<module>18</module>
+		<module>19</module>
 		<module>20</module>
 		<module>20-misadventure</module>
+		<module>22</module>
+        <module>23</module>
+		<module>big-1</module>
+		<module>big-2</module>
+		<module>big-3</module>
+		<module>big-4</module>
+        <module>big-5</module>
+        <module>big-6</module>
+		<module>mock-1</module>
+		<module>mock-2</module>
+		<module>mock-3</module>
+		<module>mock-4</module>
+		<module>mock-5</module>
 	</modules>
 
 </project>
