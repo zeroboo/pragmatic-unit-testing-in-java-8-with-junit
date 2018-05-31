@@ -9,8 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>9</artifactId>
-    <name>Example 9</name>
-
-
+    <artifactId>16</artifactId>
+    <name>Example 16</name>
 </project>
